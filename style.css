@@ -15,13 +15,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
 .container {
   margin-left: 15.625rem;
   margin-right: 15.625rem;
 }
 header {
-  height: 50rem;
+  height: 100vh;
   background-image: url(Assets/Hero-bg.png);
+  display: flex;
+  flex-direction: column;
 }
 nav {
   height: 10rem;
@@ -60,7 +67,6 @@ li button {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
   align-items: center;
 }
 .banner p {
@@ -68,9 +74,40 @@ li button {
   font-weight: bold;
   margin: auto;
   text-align: center;
+  color: #252432;
 }
 .banner button {
   height: 4rem;
   width: 12rem;
   font-size: 1.4rem;
+}
+main{
+height: 30rem;
+width: 100rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.main-left{
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-left h3{
+ font-size: 4rem;
+ color: #252432;
+}
+.main-left p{
+  font-size: 2rem;
+  color: #252432;
+}
+.main-left button{
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.2rem;
+}
+.main-right img{
+height: 30rem;
+border-radius: 4rem;
 }
