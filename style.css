@@ -1,0 +1,76 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-left: 15.625rem;
+  margin-right: 15.625rem;
+}
+header {
+  height: 50rem;
+  background-image: url(Assets/Hero-bg.png);
+}
+nav {
+  height: 10rem;
+  width: 100rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Bname a {
+  text-decoration: none;
+  font-size: 3.1rem;
+  font-weight: bolder;
+  color: #4e47ff;
+}
+li button {
+  height: 3rem;
+  width: 8.25rem;
+  font-size: 1.1rem;
+}
+.button {
+  background-color: #4e47ff;
+  font-weight: 550;
+  color: #ffffff;
+  border-radius: 0.75rem;
+  transition: transform 0.5s ease;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-delay: 10ms;
+}
+.banner {
+  height: 25rem;
+  width: 80rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+.banner p {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.banner button {
+  height: 4rem;
+  width: 12rem;
+  font-size: 1.4rem;
+}
