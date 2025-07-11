@@ -25,8 +25,7 @@ margin: auto;
 overflow-x: hidden; 
 }
 .nav-container {
-margin-left: 8rem;
-margin-right: 8rem;
+margin: auto;
 }
 .container {
 display: flex;
