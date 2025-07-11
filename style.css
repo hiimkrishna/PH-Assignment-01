@@ -19,7 +19,7 @@ body {
   max-width: 95rem;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95rem;
   gap: 10rem;
 margin: auto;
 overflow-x: hidden; 
