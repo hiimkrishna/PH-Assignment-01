@@ -31,9 +31,12 @@ header {
   height: 100vh;
   width: 100vw;
   background-image: url(Assets/Hero-bg.png);
+<<<<<<< HEAD
   /* background-size: contain;
   background-position: center;
   background-repeat: no-repeat; */
+=======
+>>>>>>> 764da893d114d6bf79f4086b78b3a58a10953047
   display: flex;
   flex-direction: column;
 }
