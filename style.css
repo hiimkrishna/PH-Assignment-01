@@ -31,12 +31,6 @@ header {
   height: 100vh;
   width: 100vw;
   background-image: url(Assets/Hero-bg.png);
-<<<<<<< HEAD
-  /* background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; */
-=======
->>>>>>> 764da893d114d6bf79f4086b78b3a58a10953047
   display: flex;
   flex-direction: column;
 }
@@ -370,10 +364,6 @@ main {
 .form {
   height: 60rem;
   width: 100rem;
-<<<<<<< HEAD
-  /* background-color: #25243205; */
-=======
->>>>>>> 97c2499232a43c9d29a1780647d7d1240a446967
   border-radius: 1.5rem;
 
   display: flex;
