@@ -15,7 +15,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{ margin: auto;}
 body {
   max-width: 96rem;
   display: flex;
