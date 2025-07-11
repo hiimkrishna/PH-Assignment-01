@@ -22,12 +22,13 @@ body {
   width: 100%;
   gap: 10rem;
   margin: auto;
-  overflow-x: hidden;
+/*   overflow-x: hidden; */
  
 }
 .container {
-  margin-left: 8.75rem;
-  margin-right: 8.75rem;
+/*   margin-left: 8.75rem;
+  margin-right: 8.75rem; */
+  margin: auto;
 }
 header {
   height: 45rem;
