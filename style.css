@@ -19,9 +19,11 @@ body {
   max-width: 120rem;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   gap: 10rem;
   margin: auto;
+  overflow-x: hidden;
+ 
 }
 .container {
   margin-left: 8.75rem;
@@ -90,6 +92,7 @@ li button {
   font-size: 1.4rem;
 }
 main {
+  /* width: 99rem; */
   display: flex;
   flex-direction: column;
   gap: 10rem;
