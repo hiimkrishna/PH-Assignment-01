@@ -24,7 +24,8 @@ body {
   margin: auto;
 }
 .container {
-  margin: auto;
+  margin-left: 8.75rem;
+  margin-right: 8.75rem;
 }
 header {
   height: 45rem;
