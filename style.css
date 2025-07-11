@@ -22,7 +22,7 @@ body {
   gap: 10rem;
 }
 .container {
-  margin-left: 10.625rem;
+  margin: auto;
 }
 header {
   height: 100vh;
