@@ -21,8 +21,8 @@ body {
   flex-direction: column;
   width: 100%;
   gap: 10rem;
-  margin: auto;
- 
+/*   margin: auto; */
+overflow-x: hidden; 
 }
 .container {
 margin: auto;
