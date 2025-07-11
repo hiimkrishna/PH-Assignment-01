@@ -28,7 +28,7 @@ body {
 }
 header {
   max-width: 120rem;
-  height: 100vh;
+  height: 45rem;
   width: 100vw;
   background-image: url(Assets/Hero-bg.png);
   display: flex;
