@@ -26,7 +26,8 @@ overflow-x: hidden;
 }
 .container {
 
-margin: auto;
+margin-left: 7.5rem;
+margin-right: 7.5rem;
 }
 header {
   height: 45rem;
