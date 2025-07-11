@@ -27,10 +27,10 @@ body {
   margin: auto;
 }
 header {
+  max-width: 120rem;
   height: 100vh;
   width: 100vw;
   background-image: url(Assets/Hero-bg.png);
-  max-width: 120rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
