@@ -370,7 +370,7 @@ main {
 .form {
   height: 60rem;
   width: 100rem;
-  background-color: #25243205;
+  /* background-color: #25243205; */
   border-radius: 1.5rem;
 
   display: flex;
