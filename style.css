@@ -16,22 +16,22 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 120rem;
+  max-width: 95rem;
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 10rem;
   margin: auto;
-  overflow-x: hidden;
  
 }
 .container {
-  margin-left: 8.75rem;
-  margin-right: 8.75rem;
+  /* margin-left: 8.75rem;
+  margin-right: 8.75rem; */
+  margin: auto;
 }
 header {
   height: 45rem;
-  width: 120rem;
+  width: 95rem;
   background-image: url(Assets/Hero-bg.png);
   background-size: cover;
   background-position: center;
@@ -40,7 +40,7 @@ header {
 }
 nav {
   height: 10rem;
-  width: 100rem;
+  width: 80rem;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@ li button {
 }
 .banner {
   height: 25rem;
-  width: 80rem;
+  width: 65rem;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -92,14 +92,14 @@ li button {
   font-size: 1.4rem;
 }
 main {
-  /* width: 99rem; */
+  width: 80rem;
   display: flex;
   flex-direction: column;
   gap: 10rem;
 }
 .action-section {
   height: 30rem;
-  width: 100rem;
+  width: 80rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,7 +129,7 @@ main {
 }
 .productive-user-section {
   height: 30rem;
-  width: 100rem;
+  width: 80rem;
   display: flex;
   background-color: #4d47ff17;
   border-radius: 2.5rem;
@@ -167,7 +167,7 @@ main {
 }
 .people-review {
   height: 40rem;
-  width: 100rem;
+  width: 80rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -322,7 +322,7 @@ main {
 
 .focus-better-section {
   height: 60rem;
-  width: 100rem;
+  width: 80rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,7 +331,7 @@ main {
 }
 .focus-better-content {
   height: 50rem;
-  width: 100rem;
+  width: 80rem;
 
   display: flex;
   flex-direction: column;
@@ -368,7 +368,7 @@ main {
 }
 .form {
   height: 60rem;
-  width: 100rem;
+  width: 80rem;
   border-radius: 1.5rem;
 
   display: flex;
@@ -424,7 +424,7 @@ footer {
 }
 .footer {
   height: 30rem;
-  width: 120rem;
+  width: 95rem;
   margin: auto;
   display: flex;
   flex-direction: column;
