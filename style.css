@@ -23,7 +23,6 @@ body {
 }
 .container {
   margin-left: 10.625rem;
-  
 }
 header {
   height: 100vh;
@@ -62,7 +61,7 @@ li button {
   cursor: pointer;
   transform: scale(1.1);
   transition-delay: 10ms;
-   background-color: #2923e4;
+  background-color: #2923e4;
 }
 .banner {
   height: 25rem;
@@ -354,7 +353,7 @@ main {
   height: 60rem;
   width: 100rem;
   background-color: #25243205;
-    border-radius: 1.5rem;
+  border-radius: 1.5rem;
 
   display: flex;
   align-items: center;
@@ -403,43 +402,39 @@ input::placeholder {
   font-size: 1.4rem;
   font-weight: 500;
 }
-footer{
+footer {
   height: 40rem;
   width: 100rem;
- 
-  
 }
-.footer{
+.footer {
   height: 30rem;
   width: 100rem;
   margin: auto;
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-.footer h1{
+.footer h1 {
   font-size: 10rem;
   font-weight: 900;
   color: #4e47ff;
 }
-.footer p{
+.footer p {
   font-size: 1.4rem;
-  color: #8987A1;
+  color: #8987a1;
 }
-.navigation{
+.navigation {
   font-size: 1.4rem;
   display: block;
-    color: #8987A1;
-
-
+  color: #8987a1;
 }
-  .navigation:hover{
-    color: #000000;
-    font-weight: 800;
-  }
-.navigate{
+.navigation:hover {
+  color: #000000;
+  font-weight: 800;
+}
+.navigate {
   display: flex;
   gap: 4rem;
 }
