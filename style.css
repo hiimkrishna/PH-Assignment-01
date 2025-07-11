@@ -16,17 +16,24 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 120rem;
   display: flex;
   flex-direction: column;
   width: 100vw;
   gap: 10rem;
+  margin: auto;
 }
 .container {
   margin-left: 10.625rem;
 }
 header {
   height: 100vh;
+  width: 100vw;
   background-image: url(Assets/Hero-bg.png);
+    max-width: 120rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 }
